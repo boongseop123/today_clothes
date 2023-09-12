@@ -15,7 +15,7 @@ public class UserDTO {
     @NotBlank(message = "성별을 입력해주세요.")
     private String gender;
     @NotBlank(message = "나이를 입력해주세요.")
-    private String age;
+    private Integer age;
 
 
 }
